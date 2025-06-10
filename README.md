@@ -36,16 +36,9 @@ Develop a **Student Assignment Tracker Web App** as a team using:
 
 software-engineering-class/
 ├── app.py # Main Flask app
-
 ├── requirements.txt # Python dependencies
-
 ├── README.md # Project documentation
-
 ├── ai-usage-log.md # AI usage log
-
 ├── /templates/ # HTML templates (Jinja2)
-
 ├── /static/ # CSS, JS, images
-
 └── /database/ # SQLite database file
-
