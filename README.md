@@ -12,6 +12,14 @@ Develop a **Student Assignment Tracker Web App** as a team using:
 
 ---
 
+### Features:
+- User Registration & Login - 
+- Dashboard to show assignments - 
+- Add new assignment - 
+- Mark assignment as done - 
+
+---
+
 ## 🚀 Tech Stack
 
 ### Backend:
