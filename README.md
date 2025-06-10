@@ -1,12 +1,45 @@
-## Project: Student Assignment Tracker Web App
+# 📚 Software Engineering Class Project
+## Collaborative Project with AI + GitHub + Python (Flask)
 
-### Features:
-- User Registration & Login - Alice
-- Dashboard to show assignments - Bob
-- Add new assignment - Charlie
-- Mark assignment as done - Alice
+---
 
-### Team Members:
-- Alice
-- Bob
-- Charlie
+## 🎯 Project Goal
+Develop a **Student Assignment Tracker Web App** as a team using:
+- Software Engineering Process
+- GitHub for collaboration
+- AI tools (Cursor, Copilot, ChatGPT, Codex)
+- Python + Flask + SQLite
+
+---
+
+## 🚀 Tech Stack
+
+### Backend:
+- Python 3.x
+- Flask (Web framework)
+- SQLite (Lightweight database)
+
+### Frontend:
+- HTML + CSS + Jinja2 templates (Flask templates)
+
+### Collaboration:
+- Git + GitHub (branching, pull request, code review)
+
+### AI Tools:
+- Cursor AI
+- GitHub Copilot
+- ChatGPT / Codex
+
+---
+
+## 🗂️ Project Structure
+
+software-engineering-class/
+│
+├── app.py # Main Flask app
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── ai-usage-log.md # AI usage log
+├── /templates/ # HTML templates (Jinja2)
+├── /static/ # CSS, JS, images
+└── /database/ # SQLite database file
