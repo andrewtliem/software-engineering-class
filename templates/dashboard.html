@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Assignments</h2>
+<a href="{{ url_for('add_assignment') }}">Add Assignment</a>
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Status</th>
+    <th>Action</th>
+  </tr>
+  {% for a in assignments %}
+  <tr>
+    <td>{{ a['title'] }}</td>
+    <td>{{ a['description'] }}</td>
+    <td>{{ 'Done' if a['done'] else 'Pending' }}</td>
+    <td>
+      {% if not a['done'] %}
+        <a href="{{ url_for('mark_done', assignment_id=a['id']) }}">Mark Done</a>
+      {% endif %}
+    </td>
+  </tr>
+  {% endfor %}
+</table>
+{% endblock %}
