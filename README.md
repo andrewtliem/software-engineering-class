@@ -50,3 +50,5 @@ software-engineering-class/
 ├── /templates/ # HTML templates (Jinja2)
 ├── /static/ # CSS, JS, images
 └── /database/ # SQLite database file
+
+Free Licence
