@@ -52,3 +52,4 @@ software-engineering-class/
 └── /database/ # SQLite database file
 
 Free Licence
+Universitas Klabat
